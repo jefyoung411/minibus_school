@@ -193,3 +193,188 @@ body {
 
 
 /* End Hero Section */
+
+
+/* Fixture Section  */
+
+
+#fixtures {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#fixtures .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fixtures .heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#fixtures .heading h1 {
+    font-size: 56px;
+    color: #333;
+}
+
+/* Fixture card styling */
+.fixture_container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fixture1 {
+    background-color: #eaeaea;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.fixture1 .fixture_top {
+    background-color: #004687;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.fixture1 .fixture_top1{
+    width: 100%;
+    height: 400px;
+    background-image: url('./chelseafc.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fixture1 .fixture_top2 img {
+    width: 100%;
+    height: 400px;
+    background-image: url('./aston.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fixture1 .fixture_top3 img {
+    width: 100%;
+    height: 400px;
+    background-image: url('./bournemouth.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fixture_bottom {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fixture_bottom_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixture_day, .fixture_month {
+    font-size: 16px;
+    color: #004687;
+    margin: 5px 0;
+}
+
+.fixture_bottom_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.fbr_top {
+    display: flex;
+    align-items: center;
+}
+
+.versus h6 {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.team {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fbr_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location, .time, .ref {
+    display: flex;
+    align-items: center;
+}
+
+.location_logo img, .time_logo img, .ref_logo img {
+    width: 10px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.location_game, .time_game, .ref_game {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .fixture_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .fixture1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fixture_bottom_left {
+        width: 150px;
+        text-align: center;
+    }
+
+    .fixture_bottom_right {
+        flex: 1;
+    }
+    .location_logo img, .time_logo img, .ref_logo img {
+        width: 14px;
+        
+    }
+    
+    .location_game, .time_game, .ref_game {
+        font-size: 16px;
+        
+    }
+}
+
+
+/* End of Fixture Section  */
